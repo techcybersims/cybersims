@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Add Service</title>
+ <link rel="stylesheet" type="text/css" href="css/vstyle.css">
+</head>
+<body>
+<nav>
+  <ul>
+   <li><a href="index.html">Main Page</a></li>
+ </ul>
+ </nav>
+ <section>
+ <header>Enter Service Details</header>
+<form action="php/add_srvc.php" method="post" name="loc_frm">
+ <table >
+  <tr>
+    <td><for="date">Date</label></td>
+    <td><input type="date" name="date" size="15" id="date" /></td>
+  </tr>  \
+  <tr>
+    <td><label align="left" for="veh_id">Vehicle</label></td>
+ <td><select name="veh_id">
+    <option></option>
+    <option value="1">El Camino</option>
+    <option value="2">Durango SLT+</option>
+    <option value="3">Focus ST</option>
+    <option value="4">Jeep Liberty</option>  
+  </select></td>
+  </tr>
+  <tr>
+   <td><label align="left" for="odometer">Odometer</label></td>
+   <td><input type="text" name="odometer" size="20" id="odometer"/></td>
+  </tr> 
+<tr>
+   <td><label align="left" for="descrip">Description of service:</label></td>
+   <td><input type="text" name="descrip" size="90" id="descrip" /></td>
+ </tr>
+ <tr>
+ <tr>
+   <td><label align="left" for="srv_provider">Service Center</label></td>
+   <td><select name="srv_provider">
+    <option></option>
+    <option value="4">MySelf</option>
+    <option value="15">Steves Automotive</option>
+    <option value="25">Xpress Lube</option>
+    <option value="23">Jims Tires</option>
+    <option value="24">Daves Garage</option>
+    <option value="13">Simi Valley Chrysler</option>
+    <option value="12">Crown Dodge</option>
+    <option value="27">Simi Valley Ford</option>
+   </select></td>
+ </tr>
+ <tr>  
+   <td><label align="left" for="cost">Cost of service:</label></td>
+   <td><input type="text" name="cost" size="20" id="cost" /></td>
+  </tr>
+  <tr> 
+   <td><label align="left" for="note">Note:</label></td>
+   <td><input type="text" name="note" size="50" id="note" /></td>
+  </tr> 
+ <tr>
+ <td><button align="left" type="submit">Submit</button></td>
+ </tr>
+ </form>
+  </section>
+</body>
+</html>
