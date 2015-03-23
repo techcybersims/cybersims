@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>OnCallReg</title>
+  <link rel="stylesheet" type="text/css" href="css/oncall.css"/>
+<body>
+<h1>On Call Event Registration Form</h1>
+<nav>
+ <ul>
+  <li><a href="onCallLog.html">Main Page</a></li>
+  <li><a href="php/mysqli_listrecords.php">List Records</a></li>
+ </ul>
+</nav>
+<br/>
+<br/>
+<form action="php/mysqli_reg.php" method="post" name="frmRegister">
+  <table>
+   <tr>
+    <td><label for="date">Date:</label></td> 
+    <td><input type="date" name="date" size="35" id="date"/></td>
+   </tr>
+   <tr> 
+    <td><label for="fi">FI:</label></td> 
+    <td><input type="text" name="fi" size="35" id="fi"/></td>
+   </tr>
+   <tr>
+    <td><label for="Incident Number">Incident Number:</label></td> 
+    <td><input type="text" name="incident_num" size="35" id="incident_num"/></td>
+   </tr>
+   <tr>
+    <td><label for="description">Description:</label></td> 
+    <td><input type="text" name="description" size="35" id="description"/></td>
+   </tr>
+   <tr>
+    <td><label for="resolution">Resolution:</label></td> 
+    <td><input type="text" name="resolution" size="35" id="resolution"/></td>
+   </tr> 
+   <tr>
+    <td><label for="action_items">Action Items:</label></td> 
+    <td><input type="text" name="action_items" size="35" id="action_items"/></td>
+   </tr>
+   <tr>
+    <td><label for="pri_eng">Primary Engineer:</label></td> 
+    <td><input type="text" name="pri_eng" size="35" id="pri_eng"/></td>
+   </tr> 
+   <tr>
+    <td><label for="sec_eng">Secondary Engineer:</label></td> 
+    <td><input type="text" name="sec_eng" size="35" id="sec_eng"/></td>
+   </tr>
+   <tr>
+    <td><label for="note">Note:</label></td> 
+    <td><input type="text" name="note" size="35" id="note"/></td>
+   </tr>   
+   </tr><br/>
+   <td><button align="center" type="submit">Submit</button></td><br/>
+  </tr>
+</table>
+</body>
+</html>
