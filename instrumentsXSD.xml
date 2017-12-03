@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="instruments.xsl"?>
+<insturment>
+  <type>Gutair</type>
+  <manfacture>Fender</manfacture>
+  <model>Stratocaster</model>
+  <note>mexi Red</note>
+  <type>Bass Guitar</type>
+  <manfacture>Fender</manfacture>
+  <model>Squire</model>
+  <note>black</note>
+  <type>Acoustic Guitar</type>
+  <manfacture>Yamaha</manfacture>
+  <model>FX3356C</model>
+  <Note>is also electric</Note>
+  <type>Guitar</type>
+  <manfacture>Yamaha</manfacture>
+  <model>AES 810</model>
+  <note>Blue</note>
+  <type>Guitair</type>
+  <manfacture>Aria</manfacture>
+  <model>Pro II Delux V</model>
+  <Note>Sunburst</Note>
+</insturment>

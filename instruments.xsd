@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://localdomain.site"
+xmlns="https://localdomain.site"
+elementFormDefault="qualified">
+<xs:element name="instrument">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="type" type="xs:string"/>
+      <xs:element name="manfacture" type="xs:string"/>
+      <xs:element name="model" type="xs:string"/>
+      <xs:element name="note" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

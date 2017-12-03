@@ -1,0 +1,5 @@
+<!ELEMENT instrument (type,manfacture,model,note)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT manufacture (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT note (#PCDATA)>

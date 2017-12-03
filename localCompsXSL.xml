@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="localComps.xsl"?>
+<CompName
+xmlns="https://localdomain.site"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="localComps.xsd">
+<comp>
+  <HostName>TheeiMac</HostName>
+  <UserName>raysims</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>judi</UserName>
+  <Password>JS10151957</Password>
+  <Note>OSX 10.11.</Note>
+</comp>
+<comp>
+  <HostName>shminimac</HostName>
+  <UserName>raysims</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>sysadmin</UserName>
+  <Password>L00k@me!__!</Password>
+  <Note>OSX 10.13.</Note>
+</comp>
+<comp>
+  <HostName>cyberimac</HostName>
+  <UserName>raysims</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>sa</UserName>
+  <Password>L00k@me!__!</Password>
+  <UserName>judi</UserName>
+  <Password>JS10151957</Password>
+  <Note>OSX 10.13.</Note>
+</comp>
+<comp>
+  <HostName>nuc-i7</HostName>
+  <UserName>ray@cybersims.com</UserName>
+  <Password>!*Swis@93063</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>W10 Pro</Note>
+</comp>
+<comp>
+  <HostName>LatD620</HostName>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <UserName>sims.ray@outlook.com</UserName>
+  <Password>!*Swis@93063</Password>
+  <Note>W10 Pro</Note>
+</comp>
+<comp>
+  <HostName>LatD830</HostName>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <UserName>raylsims1@outlook.com</UserName>
+  <Password>!*Swis@93063</Password>
+  <Note>W10 Pro</Note>
+</comp>
+<comp>
+  <HostName>JS-E6410</HostName>
+  <UserName>judi</UserName>
+  <Password>js101557</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>W10 Pro</Note>
+</comp>
+<comp>
+  <HostName>garageLat2</HostName>
+  <UserName>ray</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>Fedoara 27</Note>
+</comp>
+<comp>
+  <HostName>CoreI3</HostName>
+  <UserName>rsims</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>Fedora 27</Note>
+</comp>
+<comp>
+  <HostName>coreIIzorin</HostName>
+  <UserName>rsims</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>Zorin Pro</Note>
+</comp>
+<comp>
+  <HostName>latd410</HostName>
+  <UserName>root</UserName>
+  <Password>L00k@me!__!</Password>
+  <UserName>tech</UserName>
+  <Password>N3tm@n!__!</Password>
+  <Note>Kali Linux</Note>
+</comp>
+<comp>
+  <HostName>w7eeepc</HostName>
+  <UserName>ray</UserName>
+  <Password>z00m!1</Password>
+  <Note>keyboard issue</Note>
+</comp>
+<comp>
+  <HostName>cybermacbook</HostName>
+  <UserName>ray</UserName>
+  <Password>Z00m!__!</Password>
+  <UserName>admin</UserName>
+  <Password>L00k@me!__!</Password>
+  <Note>Has Photoshop CS5</Note>
+</comp>
+</CompName>   

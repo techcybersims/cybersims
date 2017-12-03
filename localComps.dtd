@@ -1,0 +1,5 @@
+<!ELEMENT CompName (HostName,UserName,Password,Note)>
+<!ELEMENT HostName (#PCDATA)>
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT Note (#PCDATA)>
